@@ -23,9 +23,9 @@ import sys
          self.resize(256,256)
          self.show()
      def activateMessage(self):
-         #QMessageBox.information(self, “information”,”Button Clicked”))
+         #QMessageBox.information(self, "information","Button Clicked"))
          self.te1.appendPlainText('Button Clicked')
- if __name__==‘__main__’:
+ if __name__=='__main__':
      app = QApplication(sys.argv)
      view = Calculator()
      sys.exit(app.exec_())
